@@ -9,12 +9,12 @@
 .top-pink-header{background-color: #F000b9;height: 20vh;}
 
 .main-frame{position: relative;
-    width: calc(100vw - 10vh);
+    width: 82vw;
     height: 82vh;
-    left: 5vh;
+    left: 10vw;
     top: -15vh;
     box-shadow: 0px 16px 16px 0px rgba(100, 100, 100, 0.1);
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(50px);
     border-radius: 3vh;
     border: 1px solid rgba(100, 100, 100, 0.15);
     z-index: 1;}
@@ -66,15 +66,15 @@
 }
 .main-frame-content {
     height: 71vh;
-    width: calc(100vw - 14vh);
+    width: 80vw;
     display: flex;
     justify-content: space-between;
-    padding: 0px 2vh;
     z-index: 2;
+    padding: 0vw 1vw;
 }
 
 .small-frame{
-    width: calc(((100vw - 20vh)/4));
+    width: calc(80vw/4 - 0.5vw);
     height: 70vh;
     background-color: rgba(100, 100, 100, 0.1);
     z-index: 3;
